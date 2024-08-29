@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Gatitos</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://s1.1zoom.me/big0/108/267464-werecat.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white; /* Cambiar el color del texto a blanco para que sea legible sobre el fondo */
+        }
+
+        /* Estilos para la barra de navegación superior */
+        .navbar {
+            width: 100%;
+            background-color: rgba(173, 216, 230, 0.8); /* Azul claro con transparencia */
+            padding: 10px 20px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .navbar a {
+            color: #000;
+            text-decoration: none;
+            margin-left: 15px;
+            font-size: 14px;
+        }
+
+        /* Estilos para el contenedor principal */
+        .container {
+            text-align: center;
+            margin-top: 150px; /* Separar el contenido del centro de la pantalla */
+            background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilos para el logo */
+        .logo img {
+            width: 300px;
+        }
+
+        /* Estilos para la caja de búsqueda */
+        .search-box {
+            margin: 20px 0;
+        }
+
+        .search-box input {
+            width: 600px;
+            padding: 10px;
+            border-radius: 25px;
+            border: 1px solid #87CEEB; /* Azul claro */
+            outline: none;
+            font-size: 16px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Estilos para los botones */
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .buttons button {
+            background-color: #87CEEB; /* Azul claro */
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+
+        .buttons button:hover {
+            background-color: #00BFFF; /* Azul más oscuro */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Estilos para el footer */
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            background-color: rgba(173, 216, 230, 0.8); /* Azul claro con transparencia */
+            padding: 10px 0;
+            box-sizing: border-box;
+        }
+
+        .footer a {
+            color: #000;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de navegación superior -->
+    <div class="navbar">
+        <a href="#">Gmail</a>
+        <a href="#">Imágenes</a>
+        <a href="#">Iniciar sesión</a>
+    </div>
+
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Logo de Google -->
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google Logo">
+        </div>
+        
+        <!-- Caja de búsqueda -->
+        <div class="search-box">
+            <input type="text" placeholder="Buscar en Google">
+        </div>
+        
+        <!-- Botones -->
+        <div class="buttons">
+            <button>Buscar con Google</button>
+            <button>Voy a tener suerte</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <a href="#">Publicidad</a>
+        <a href="#">Negocios</a>
+        <a href="#">Acerca de</a>
+        <a href="#">Privacidad</a>
+        <a href="#">Términos</a>
+    </div>
+</body>
+</html>
